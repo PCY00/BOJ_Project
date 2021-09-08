@@ -27,5 +27,7 @@ int main() {
 		remain += box[i];
 	}
 	cout << remain;
+	delete[] box;
+	delete[] book;
 	return 0;
 }

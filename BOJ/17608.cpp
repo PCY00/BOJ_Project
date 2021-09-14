@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// 런타임 에러.. 왜인지 모르겠다. 정답은 다 잘나온다.
+#include <iostream>
 #define MAX_STACK_SIZE 100
 
 using namespace std;

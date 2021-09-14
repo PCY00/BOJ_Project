@@ -1,6 +1,7 @@
 // 런타임 에러.. 왜인지 모르겠다. 정답은 다 잘나온다.
+// 수정 스택 맥스값 문제였음ㅋㅋㅋ
 #include <iostream>
-#define MAX_STACK_SIZE 100
+#define MAX_STACK_SIZE 100010
 
 using namespace std;
 

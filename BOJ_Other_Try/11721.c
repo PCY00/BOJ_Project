@@ -1,18 +1,23 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
+	char N[100];
+	int i = 0;
+
+	fgets(N, 100, stdin);
 
 
-    char str[100];
+	for (i = 0; i < 100; i++) {
+		if (N[i] == '\0') {
+			break;
+		}
+	}
 
-    fgets(str, 100, stdin);
-
-    // 15 hello x3
-    for (int i = 1; i <= strlen(str); i++) {
-        printf("%c", str[i - 1]);
-        if (i % 10 == 0) {
-            printf("\n");
-        }
-    }
+	for (int j = 1; j <= i; j++) {
+		printf("%c", N[j - 1]);
+		if (j % 10 == 0) {
+			printf("\n");
+		}
+	}
+	return 0;
 }
